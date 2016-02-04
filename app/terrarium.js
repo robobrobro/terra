@@ -10,7 +10,7 @@ var dom = require('./dom.js');
  * @param {object} options
  *   @param {string} id             id assigned to the generated canvas
  *   @param {int} cellSize          pixel width of each cell (default 10)
- *   @param {string} insertAfter    id of the element to insert the canvas after
+ *   @param {object} insertAfter    element to insert the canvas after
  *   @param {float} trails          a number from [0, 1] indicating whether trails should
  *                                    be drawn (0 = no trails, 1 = neverending trails)
  *                                    "background" option is required if trails is set
