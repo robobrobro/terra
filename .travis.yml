@@ -5,11 +5,12 @@ node_js:
     - "4.2.0"
     - "iojs"
 
+before_install:
+    - npm install -g bower
+    - bower install
+
 before_script:
     - npm install -g gulp
-
-before_install:
-    - bower install
 
 script:
     - gulp script
