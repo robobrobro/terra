@@ -1,4 +1,4 @@
-terra
+terra [![Build Status](https://travis-ci.org/robobrobro/terra.svg?branch=master)](https://travis-ci.org/robobrobro/terra)
 =====
 
 JS library for cellular automata and simple biological simulations. Documentation and examples live [here](http://rileyjshaw.com/terra/).
