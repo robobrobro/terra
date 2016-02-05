@@ -14,3 +14,6 @@ before_script:
 
 script:
     - gulp scripts
+
+after_script:
+    - gulp test

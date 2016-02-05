@@ -30,7 +30,7 @@ var paths = {
     scripts: './dist',
     demo: './demo'
   },
-  tests: './tests'
+  tests: './tests/**/*.js'
 };
 
 gulp.task('lint', function() {
